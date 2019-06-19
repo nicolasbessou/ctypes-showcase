@@ -31,7 +31,9 @@ NOTE: ctypesgen does not support C++ APIs. So you need a C API for it to work (n
 How to run the demo?
 --------------------
 
-Compile the C Dll that will be called by Python.
+First, You need to have python, ctypesgen, numpy and gcc installed on your machine.
+
+Then, compile the C Dll that will be called by Python.
 ```
 python waf configure
 python waf build -v
